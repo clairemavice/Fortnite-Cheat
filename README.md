@@ -1,6 +1,6 @@
-# VictoryEdge - Unlock Your True Potential 
+# Fortnite Cheat - Unlock Your True Potential 
 
-Welcome to **VictoryEdge**, the ultimate tool for enhancing your Fortnite experience. Designed for players who want to take their game to the next level, VictoryEdge offers a range of features that ensure you’re always ahead of the competition.
+Welcome to **Fortnite Cheat**, the ultimate tool for enhancing your Fortnite experience. Designed for players who want to take their game to the next level, VictoryEdge offers a range of features that ensure you’re always ahead of the competition.
 
 ## Features:
 - **Aimbot**: Perfect aim, every time. Lock onto your target with ease and precision, ensuring you never miss.
