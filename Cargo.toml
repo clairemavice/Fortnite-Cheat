@@ -1,0 +1,11 @@
+[package]
+name = "fortnite_cheat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = "0.48"
+egui = "0.22"
+parking_lot = "0.12"
+directx-math = "0.2.0"
+lazy_static = "1.4.0"

